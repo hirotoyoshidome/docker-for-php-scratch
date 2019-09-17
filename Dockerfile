@@ -4,5 +4,5 @@ WORKDIR /usr/src
 
 RUN apt-get update && apt-get upgrade
 RUN curl -sS https://getcomposer.org/installer | php
-RUN ./composer.phar /usr/local/bin/
+RUN mv ./composer.phar /usr/local/bin/
 
