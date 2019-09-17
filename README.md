@@ -5,3 +5,14 @@ PHPの開発環境をDocker化する
 php7
 composer
 
+```
+docker build -t dev_myphp .
+docker run -it -w /usr/src -v $PWD:/usr/src --rm dev_myphp:latest /bin/bash
+```
+
+↑コンテナに入る
+
+```
+php Hello.php
+```
+でファイルを実行できる
