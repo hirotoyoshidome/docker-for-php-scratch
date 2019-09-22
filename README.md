@@ -22,5 +22,6 @@ Laravelを入れるときに
 ```
 sudo apt-get install php7.2-xml
 sudo apt-get install php-mbstring
+sudo apt-get install php-mysql
 ```
 ↑をする必要があったため、対応が必要かも(ローカルで実施)
