@@ -3,7 +3,7 @@
 PHPの開発環境をDocker化する
 
 php7
-composer
+composer(https://getcomposer.org/download/)
 
 ```
 docker build -t dev_myphp .
